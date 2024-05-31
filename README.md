@@ -81,7 +81,8 @@ Minimum Exchange Rate: 1.08185 (Date: 2024-05-29)
 Average Exchange Rate: 1.09
 ```
 
-![image](https://github.com/pavanerravelli/ExchangeratesApicall/assets/171128460/caf41b46-641c-45f4-8b6a-8fe53d47db5d)
+![image](https://github.com/pavanerravelli/ExchangeRateAnalysys/assets/171128460/3a9df6ee-bf0d-4ef4-80e7-c329e3ac31e1)
+
 
 #License
 
