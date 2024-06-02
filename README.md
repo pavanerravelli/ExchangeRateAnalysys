@@ -9,6 +9,14 @@ It fetches exchange rates for a specified date range provided in command line ar
 - Python 3.x
 - Required Python packages: `requests`, `pandas`, `numpy`, `matplotlib`
 
+## Usage : Run in GitHub Actions
+
+1. Click on `Actions` Tab in the repository Menu
+2. Click on `Python Exchange Rates CI` on left side of the page.
+3. Click on any latest workflow run
+4. Click Re Run All Jobs, You can monitor the execution and logs in the console.
+5. Most Recent Run : https://github.com/pavanerravelli/ExchangeRateAnalysys/actions/runs/9337803418/job/25700219822
+
 ## Usage : Run in Local Environment
 
 1. Ensure you have Python 3.x installed on your system.
