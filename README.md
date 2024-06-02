@@ -9,7 +9,7 @@ It fetches exchange rates for a specified date range provided in command line ar
 - Python 3.x
 - Required Python packages: `requests`, `pandas`, `numpy`, `matplotlib`
 
-## Usage
+## Usage : Run in Local Environment
 
 1. Ensure you have Python 3.x installed on your system.
 2. Install the required Python packages using pip:
@@ -18,7 +18,7 @@ It fetches exchange rates for a specified date range provided in command line ar
 pip install requests pandas numpy matplotlib
 ```
 
-3. Replace 'XXXXXXX' in the access_key variable with your actual Exchange Rates API access key.
+3. Setup environment varibale named `EXCHANGE_API_KEY`
 4. Run the script using a Python environment by prividing start_date, end_date parameters:
 
 ```bash 
