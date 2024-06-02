@@ -1,0 +1,30 @@
+name: Python Exchange Rates CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests pandas numpy matplotlib
+
+    - name: Run script
+      run: python exchange_rate_analysis.py --start_date 2024-05-01 --end_date 20204-5-31
+      env:
+        EXCHANGE_API_KEY: ${{ secrets.EXCHANGE_API_KEY }}
